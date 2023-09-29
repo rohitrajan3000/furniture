@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: poppins;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    background-color: burlywood;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+header nav img{
+    height: 3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+header .search img{
+    height: 1rem;
+    cursor: pointer;
+}
+header h1{
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 7px;
+    justify-content: space-evenly;
+    margin: 1rem;
+    cursor: pointer;
+}
+.search input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: burlywood;
+}
+header ul{
+   display: flex;
+    
+    
+}
+header ul li{
+    
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+}
+.one .right{
+    padding: 1.5rem;
+}
+.one .right h2{
+    font-size: 2rem;
+    color: brown;
+}
+.one .right p{
+    font-size: 1.2rem;
+}
+.one .right h3{
+    font-size: 2rem;
+    color: blueviolet;
+}
+.one .right ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    padding: 0.7rem;
+}
+.one .right ul li h4{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.one .right ul li img{
+    height: 3rem;
+    margin-right: 1.5rem;
+}
+.one .right span{
+    font-size: 2rem;
+}
+.colors{
+    display: flex;
+
+}
+.color{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color:black;
+}
+.yellow{
+    background-color:yellow;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.one .left img{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.three .left img{
+    width: 100%;
+}
+.three .right{
+    padding: 2rem;
+}
+.three h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.three ul li{
+    
+    font-size: 1.2rem;
+}
+.two .left img{
+    width: 100%;
+}
+.two .right{
+    padding: 2rem;
+}
+.two .right h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.two .right span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.four .tb{
+    border: 1px solid black;
+    text-align: center ;
+    width: 20rem;
+    height: 20rem;
+}
+.four .tb tr th{
+    border: 1px solid black;
+}
+.four .tb tr td{
+    border: 1px solid black;
+}
+.four h1{
+    margin-bottom: 1.5rem;
+}
+.five h1{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.five .products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.five .products .product{
+    margin-bottom: 4rem;
+}
+.five .products .product .top{
+    background-color: burlywood;
+    width: 90%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.five .products .product .top img{ 
+    width: 90%;
+}
+.five .products .product .bottom h2{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+.five .products .product .bottom button{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    background: rgb(66, 139, 66);
+    cursor: pointer;
+}
+.six{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six .tb{
+    border: 1px solid black;
+    text-align: center ;
+    width: 50rem;
+    height: 30rem;
+}
+.six .tb tr th{
+    border: 1px solid black;
+}
+.six .tb tr td{
+    border: 1px solid black;
+}
+.six h1{
+    margin-bottom: 1.5rem;
+}
+.seven .top h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.seven .buttom{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 1rem;
+}
+.seven .buttom .review{
+    width: 85%;
+    height: 15vh;
+    background-color:rgb(162, 135, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.seven .buttom ul li{
+    list-style: none;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+}
+
+
+.seven .buttom .star{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+.seven .star img{
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+.seven .pp{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+
+
+
+@media screen and (min-width: 700px){
+    .one{
+        display: flex;
+
+    }
+    .one .right{
+        width: 50%;
+    }
+    .one .right h2{
+        font-size: 1.5rem;
+    }
+    .one .right p{
+        font-size: 1rem;
+    }
+    .one .right h3{
+        font-size: 1.5rem;
+    }
+    .one .right ul li img{
+        height: 2rem;
+    }
+    .one .right ul li h4{
+        font-size: 1rem;
+    }
+    .one .right span{
+        font-size: 1.4rem;
+    }
+    .two{
+        display: flex;
+    }
+    .three{
+        display: flex;
+    }
+    .five .products{
+        display: flex;
+        flex-direction: row;
+    }
+    .five .products .product .top{
+        height: 10rem;
+    }
+    .five .products .product{
+        margin: 1rem;
+    }
+    .six{
+        margin: 2rem;
+    }
+    .seven .buttom{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+
+
+}
+@media screen and (min-width: 1200px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content:left;
+        align-items: center;
+        height: 6rem;
+
+    }
+    header nav h1{
+        font-size: 2rem;
+    }
+    header .search{
+        width: 40%;
+    }
+    .one .left img{
+        width: 90%;
+    }
+    .one .right h2{
+        font-size: 2.5rem;
+    }
+    .one .right p{
+        font-size: 1.5rem;
+    }
+    .one .right ul{
+        display: flex;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .two .right h2{
+        font-size: 2rem;
+    }
+    .five{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .five .products{
+        width: 80%;
+    }
+    .seven .buttom{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+

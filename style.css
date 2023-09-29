@@ -1,0 +1,829 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: poppins;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    background-color: burlywood;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+header nav img{
+    height: 3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+header .search img{
+    height: 1rem;
+}
+
+.search{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 7px;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+.search input{
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: burlywood;
+    cursor: pointer;
+}
+header ul{
+   display: flex;
+    
+    
+}
+header ul li{
+    
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+}
+.one .left{
+    padding: 2rem;
+}
+.one .left h6{
+    
+    font-size: 1rem;
+}
+.one .left h5{
+    font-size: 1.5rem;
+    color:blueviolet;
+}
+.one .left h4{
+    font-size: 2rem;
+    color: green;
+}
+.one .left p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.one .left ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one .left ul img{
+    height: 2.5rem;
+}
+.one .left ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+
+}
+.one .left button{
+    width: 15rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    background: rgb(66, 139, 66);
+    cursor: pointer;
+}
+
+.one .right img{
+    width: 100%;
+}
+.background{
+    position: absolute;
+    top: 1;
+    z-index: -1;
+}
+
+.two .top{
+    margin: 2rem;
+    background-color: chocolate;
+    border-radius: 2rem;
+}
+.two .top h3{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.two .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.two .top div{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+.two .top div img{
+    height: 10rem;
+}
+
+.two .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+.two .bottom img{
+    height: 5rem;
+    padding: 1rem;
+}
+.two .bottom h2{
+    font-size: 1rem;
+}
+.three .left{
+    background-color: lightcoral;
+    width: 80%;
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.three h6{
+    font-size: 1rem;
+}
+.three h5{
+    font-size: 2rem;
+}
+.three h4{
+    font-size: 2rem;
+}
+.three h3{
+    font-size: 1,5rem;
+}
+.three img{
+    height: 10rem;
+    margin-left: 3rem;
+}
+.four .left img{
+    width: 100%;
+}
+.four .right{
+    padding-left: 1rem;
+    background-color:#ffffe0;
+}
+.four .right h3{
+    font-size: 2rem;
+    color: darkslategrey;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.four .right h2{
+    font-size: 3rem;
+    color:  darkslategrey;
+    margin-bottom: 1rem;
+
+}
+.four .right span{
+    color: green;
+}
+.four .right p{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.four .right ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 2rem;
+    color: darkslategrey;
+    margin-bottom: 1rem;
+}
+
+.four .right ul li img{
+    height: 3.5rem;
+    margin-right: 1rem;
+}
+
+.four button{
+    width: 12rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    background: white;
+    border: solid gray;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.five span{
+    font-size: 2rem;
+    color: green;
+}
+.five h1{
+    font-size: 2rem;
+    color: darkgreen;
+
+
+}
+.five p{
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.five ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.five ul li{
+   
+    background-color: rgb(142, 202, 109);
+    font-size: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.7rem;
+    list-style: none;
+    margin-bottom: 0.5rem;
+
+}
+.six ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    
+}
+
+.six ul li{
+    list-style: none;
+    background-color: rgb(244, 242, 217);
+    margin: 0.5rem;
+    border-radius: 2rem;
+}
+
+.six ul li .top{
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.six ul li .top .view{
+    height: 10rem;
+
+}
+
+.six ul li .bottom{
+    padding-left: 1rem;
+}
+
+.six ul li h6{
+    font-size: 1rem;
+}
+
+.six ul li .bottom .star{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+.six ul li  img{
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.six ul li h5{
+    font-size: 1rem;
+    color: blueviolet;
+    margin-bottom: 2rem;
+}
+.six ul li span{
+    font-size: 0.7rem;
+    color: black;
+}
+.seven{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 214, 195);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.seven .left h1{
+    font-size: 4rem;
+
+}
+.seven .left h2{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+
+.seven .left button{
+    width: 15rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+.seven .right img{
+    width: 15rem;
+    
+}
+
+ 
+.eight{
+    background-color: rgb(239, 239, 149);
+    padding: 1rem;
+}
+
+
+.eight .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.eight .top h1{
+    font-size: 2rem;
+    color: yellowgreen;
+    padding-bottom: 1rem;
+}
+
+.eight .top span{
+    font-size: 2rem;
+    color: darkgreen;
+}
+.eight .top p{
+    font-size: 1rem;
+}
+
+
+.eigt.buttom{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 1rem;
+}
+.eight .buttom .review{
+    width: 85%;
+    height: 15vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.eight .buttom ul li{
+    list-style: none;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+}
+
+
+.eight .buttom .star{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+.eight .star img{
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+.eight .pp{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.nine{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.nine h1{
+    font-size: 3rem;
+    color: chocolate;
+    margin-left: 5.4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.nine .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nine .bottom .show{
+    
+    width: 40vh;
+    height: auto;
+    background-color: cadetblue;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.nine .bottom .show img{
+    height: 25rem;
+    width: 18rem;
+    margin-bottom: 2rem;
+    
+}
+.nine .bottom h6{
+    font-size: 1rem;
+}
+
+
+
+
+.ten .top{
+    margin: 2rem;
+    background-color: chocolate;
+    border-radius: 2rem;
+}
+.ten .top h3{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.ten .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ten .top div{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+.ten .top div img{
+    height: 10rem;
+}
+
+.eleven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+
+}
+.eleven iframe{
+    width: 60rem;
+    height: 30rem;
+    
+}
+
+footer{
+    width: 100%;
+    height: auto; 
+    padding-top: 1rem;
+    background-color: greenyellow;
+    
+}
+footer .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+footer .details .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+footer .details .boxes .detail{
+    padding: 1rem;
+}
+footer .details .boxes .detail ul li {
+    list-style: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+@media screen and (min-width: 700px){
+    header .logo img{
+        height: 5rem;
+    }
+    header nav h1{
+        font-size: 4rem;
+    }
+    .one .left ul{
+        flex-direction: row;
+        margin: 1rem;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .two .top{
+        align-self: center;
+        width: 60%;
+    }
+    .two .bottom img{
+        height: 13rem;
+    }
+    .three{
+        display: flex;
+    }
+
+    .three .left .r img{
+        height: 18rem;
+    }
+    .five ul{
+        flex-direction: row;
+    }
+    .five ul li{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .six ul li{
+        display: flex;
+        
+    }
+    .six ul li .bottom{
+        margin-top: 1rem;
+    }
+    .eight .buttom{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .nine .bottom{
+        flex-direction: row;
+    }
+    .nine .bottom .show img{
+        width: 100%;
+        
+    }
+    .ten{
+        width: 90%;
+    }
+    .footer .detailsl .boxes{
+        
+        flex-direction: row;
+        
+
+    }
+}
+@media screen and (min-width: 1200px){
+    header{
+        flex-direction: row;
+        justify-content: left;
+        height: 6rem;
+    }
+    header nav h1{
+        font-size: 3rem;
+        margin-right: 2rem;
+    }
+    header nav  .logo img{
+        height: 4rem;
+
+    }
+    header .search{
+        width: 30%;
+    }
+    .one{
+        display: flex;
+    }
+    .one .left{
+        width: 50%;
+        justify-content: left;
+        margin-left: 3rem;
+        
+    }
+    
+    .one .left span{
+        background-color: bisque;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .one h6{
+        font-size: 1rem;
+        width: auto;   
+    }
+    
+  
+    .one .left ul {
+        display: flex;
+        width: 100%;
+        margin-top: 2rem;
+
+    }
+    
+    .one .left ul li{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+     
+        
+    }
+    
+    .one .left ul li img{
+        height: 2rem;
+        
+    }
+    .one .left ul li p{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .one .left button{
+        width: 15rem;
+        height: 3.5rem;
+        border: none;
+        border-radius: 5rem;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        background: green;
+    }
+    .one .right{
+        width: 50%;
+        height: auto;
+        
+    }
+    
+    .one .right img{
+        height: 60vh;
+        padding-top: 1rem;
+    }
+    
+    
+    .background{
+        position: absolute;
+        top: 1;
+        z-index: -1;
+    }
+    .one .right .background{
+        margin-top: 3rem;
+        width: 35%;
+        height: 60%;
+    
+    }    
+    .one .right .foreground{
+        margin-top: 1rem;
+        margin-left: 4rem;
+        width: 60%;
+        position: relative;
+        
+    }
+    .two{
+        margin-top: 7rem;
+    }
+    
+    
+    .two .top{
+        flex-direction: row;
+        padding: 2rem;
+        width: 90%;
+        align-items: center;
+    
+    }
+    
+    .two .pic{
+        height: 11rem;
+        width: 11rem;
+        background:white;
+        margin-left: 3rem;
+        border-radius: 2rem;
+    }
+    
+    .two .top h3{
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .two .pic img{
+        height:  10rem;
+    }
+    .four{
+        display: flex;
+        flex-direction: row;
+    }
+    .four .left{
+        width: 50%;
+    }
+    .four  img{
+        width: 100%;
+        height: 100%;
+    }
+    .four .right{
+        width: 50%;
+    }
+    .four .right img{
+        width: 5rem;
+    }
+    .six ul{
+        grid-template-columns: repeat(4,1fr); 
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5rem;  
+    }
+    .six ul li{
+        flex-direction: column;
+    }
+    .six ul li .top{
+        height: 15rem;
+        width: 14rem;
+        background-color: white;
+        margin: 1.5rem;
+        border-radius: 2rem;
+       
+    }
+    .six ul li .bottom{
+        margin-left: 1rem;
+    }
+    .seven{
+        flex-direction: row;
+    }
+    .eight .buttom{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .ten .top{
+        flex-direction: row;
+        padding: 2rem;
+    }
+    .ten .top .pic{
+        margin-left: 1rem;
+    }
+   
+    footer .details{
+        flex-direction: row; 
+    }
+
+}
