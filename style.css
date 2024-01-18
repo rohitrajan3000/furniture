@@ -827,3 +827,1124 @@ footer .details .boxes .detail ul li {
     }
 
 }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: NONE ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+ 
+header .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+header .searh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:burlywood;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 2.5rem;
+    border: 1px solid black;
+}
+header .searh .input{
+    width: 50%;
+}
+header .searh .img{
+    height: 1.5rem;
+}
+
+
+header .about ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+header .about ul li{
+
+    margin-left: 2rem;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.page1{
+    height:30rem;
+}
+.offer{
+    margin: 5%;
+    width: 15%;
+    height: 25px;
+    padding: 2px 2px;
+    box-sizing: border-box;
+    border: 0.1px solid #ccc;
+    border-radius: 14px;
+    background-color:burlywood;
+    font-size: 16px;
+    resize: none;
+  }
+.text2{
+    font-size: medium;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: blue;
+}
+.text3{
+    color: orange;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.para{
+    margin-left: 2rem;
+}
+.feature{
+    display: flex;
+    padding: 6px 2px 20px 4px;
+    font-size: small;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+.button{
+    background-color: burlywood;
+    border-radius: 15%;
+    border: 0.1px solid #ccc;
+    margin-left:12%;
+}
+
+
+.one{
+    float: left;
+}
+.rightimg{
+    float: right;
+    margin-right: 18%;
+    margin-top:-10%;
+}
+.trend{
+    margin: 5rem;
+    border-radius: 4rem;
+   
+    background-color: burlywood;
+    align-items: baseline;
+}
+.trend ul{
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style-type: none;
+}
+
+.trend ul li{
+    padding: 2rem;
+}
+.trend ul h1{
+    text-align: center;
+}
+.everyhome ul{
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 4rem;
+}
+
+.everyhome ul li{
+    padding: 2rem;
+}
+.everyhome ul li img{
+    border-radius: 2rem;
+}
+.everyhome ul li h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2 .button{
+    margin-top: 2rem;
+}
+
+.offer-left{
+    background-color: burlywood;
+    width: 35%;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    border-radius: 10px;
+}
+.offer-left .left p{
+    font-size: 2rem;
+}
+
+.offer-left .left h2{
+    font-size: 2.5rem;
+}
+.offer-left .right img{
+    border-radius: 2rem;
+}
+.offer-right{
+    background-color: burlywood;
+    width: 35%;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    border-radius: 10PX;
+
+}
+.offer-right .left p{
+    font-size: 2rem;
+}
+
+.offer-right .left h2{
+    font-size: 2.5rem;
+    margin-right: 3rem;
+}
+.offer-right .right img{
+    border-radius: 2rem;
+    margin-left: 3.5rem;
+}
+.page3{
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 5rem;
+    padding: 50px;
+    border-radius: 4rem;
+}
+.page3 img{
+border-radius: 2rem;
+}
+.page3 .right h2{
+    font-size: 2rem;
+    margin-left: 4rem; 
+}
+.page3 .right p{
+    font-size: 1rem;
+    margin-left: 4rem; 
+    padding-top: 15px;
+}
+.page3 .right ul{
+    margin-left: 5rem;
+    padding-top: 10px;
+}
+.page3 .right ul li{
+    list-style-type:square;
+}
+.page3 .right button{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.page4 {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.products { display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.products h2 { 
+    margin-bottom: 20px; 
+}
+
+.products p { max-width: 500px;
+     text-align: center; 
+     margin-bottom: 30px; 
+    }
+
+.iteams ul { display: flex; 
+    justify-content: space-around; 
+    list-style-type: none; 
+    }
+
+.iteams li { font-size: 24px; 
+    font-weight: bold; 
+    padding: 10px 20px;
+     border: 1px solid white; 
+     border-radius: 5px; 
+     cursor: pointer; 
+     }
+.page5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chair{
+    height: 200px;
+    width: 100px;
+    padding: 70px;  
+}  
+.img{
+    border-radius: 1rem;
+    height: 200px;
+}
+.page6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page7{
+    background-color: burlywood;
+    width: 55%;
+    padding: 3rem;
+    margin: 15rem;
+    display: flex;
+    border-radius: 20PX;
+    justify-content: center;
+    align-items: center;
+}
+.page7 .left h2{
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+}
+.left .button{
+    background-color: white;
+    margin-top: 2rem;
+}
+.page7 .right img{
+    border-radius: 2rem;
+}
+.page8{
+    background-color: burlywood;
+}
+.customer h2 { 
+    text-align: center; 
+}
+.customer p {
+text-align: center; 
+}
+.marvel{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+.colum1{
+    float:left;
+    display: flex;
+    margin: 2rem;
+    padding:1rem;
+}
+.review{
+    float: right;
+    
+    
+}
+
+
+.page8 .customerReview{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    padding: 2rem;
+  
+}
+
+.page8 .customer{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    
+
+}
+
+.userReview{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.page8 .customerReview .userReview img{
+    margin-right: 1rem;
+}
+.page9 h2{
+    margin: 2rem;
+}
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.blog > div {
+    background-color:burlywood;
+    border-radius: 5px;
+}
+.blog img {
+    width: 200px;
+    height: 200px;
+    padding-left: 2rem;
+    border-radius: 5px;
+}
+
+.blog p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.off30{
+    display: flex;
+    background-color: burlywood;
+    margin: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+.off30 img{
+    border-radius: 10px;
+}
+.map{
+    margin-left: 230px;
+}
+.page11{
+    display: flex;
+    margin: 2rem;
+    padding: 20px;
+    column-gap: 200px;
+    font-size:20px;
+    margin-left: 100px;
+}
+.shopname{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.shopname h2{
+    padding-top: 12px;
+}
+.leftside.searh .input{
+    width: 50%;
+    
+}
+.leftside .searh .img{
+    height: 1rem;
+    margin-top:0.5rem;
+}
+.foreimg{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin: 2px;
+}
+.prices .right h3 {
+    
+    font-size: 29px ;
+    margin-bottom: 2rem;
+}
+.page13{
+    display: flex;
+}
+.middle img{
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+}
+.price h4{
+    text-decoration-line: line-through; 
+}
+.page12 header .about ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.prices ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.material p{
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.package ul{
+    padding: 2rem;
+}
+.table{
+    font-size: 40px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.page17 ul{
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.eleven img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+.eleven .ul .button{
+    background-color: burlywood;
+}
+.twelve{
+    padding: 4rem;
+}
+
+
+.container {
+  width: 100%;
+  background-color:white;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.five {width: 80%; background-color:burlywood;}
+.four {width: 60%; background-color: burlywood;}
+.three {width: 40%; background-color: burlywood;}
+.two {width: 30%; background-color: burlywood;}
+.ones {width: 20%; background-color: burlywood;}
+.RATING{
+    display: flex;
+}
+.page20 .customerview{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 2rem;
+  
+  }
+  
+  .page20 .customer{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .useReview{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .page20{
+    background: burlywood;
+    margin-left: 10rem;
+  }
+/* Apply styles for screens larger than 600 pixels */
+@media screen and (min-width: 600px)  {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        background-color: NONE ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        flex-direction: column;
+    }
+     
+    header .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header img{
+        height: 5rem;
+        margin-right: 1rem;
+    }
+    
+    header .searh{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:burlywood;
+        height: 2.5rem;
+        width: 15rem;
+        border-radius: 2.5rem;
+        border: 1px solid black;
+    }
+    header .searh .input{
+        width: 50%;
+    }
+    header .searh .img{
+        height: 1.5rem;
+    }
+    
+    
+    header .about ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    header .about ul li{
+    
+        margin-left: 2rem;
+        list-style: none;
+        font-weight: bolder;
+        font-size: 1.3rem;
+    }
+    .page1{
+        height:30rem;
+    }
+    .page1 .form{
+        display: inline-block;
+        width: 70%;
+    }
+    .offer{
+        margin: 5%;
+        width: inherit;
+        height: 25px;
+        padding: 2px 2px;
+        box-sizing: border-box;
+        border: 0.1px solid #ccc;
+        border-radius: 14px;
+        background-color:burlywood;
+        font-size: 16px;
+        resize: none;
+      }
+    .text2{
+        font-size: medium;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        color: blue;
+    }
+    .text3{
+        color: orange;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .para{
+        margin-left: 2rem;
+    }
+    .feature{
+        display: flex;
+        padding: 6px 2px 20px 4px;
+        font-size: small;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-left: 0%;
+    }
+    
+    
+    .button{
+        background-color: burlywood;
+        border-radius: 15%;
+        border: 0.1px solid #ccc;
+        margin-left:12%;
+    }
+    
+    
+    .one{
+        float: left;
+    }
+    .rightimg{
+        float: right;
+        margin-right: 18%;
+        margin-top:-10%;
+    }
+    .trend{
+        margin: 5rem;
+        border-radius: 4rem;
+        display: flex;
+        background-color: burlywood;
+        align-items: baseline;
+    }
+    .trend ul{
+        flex-direction:column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .trend ul li{
+        padding: 2rem;
+    }
+    .trend ul h1{
+        text-align: center;
+    }
+    .everyhome ul{
+        display: flex;
+        background-color: burlywood;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        border-radius: 4rem;
+        flex-direction: column;
+    }
+    
+    .everyhome ul li{
+        padding: 2rem;
+    }
+    .everyhome ul li img{
+        border-radius: 2rem;
+    }
+    .everyhome ul li h3{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .page2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .page2 .button{
+        margin-top: 2rem;
+    }
+    
+    .offer-left{
+        background-color: burlywood;
+        width: 35%;
+        padding: 2rem;
+        margin: 2rem;
+        display: flex;
+        border-radius: 10px;
+    }
+    .offer-left .left p{
+        font-size: 2rem;
+    }
+    
+    .offer-left .left h2{
+        font-size: 2.5rem;
+    }
+    .offer-left .right img{
+        border-radius: 2rem;
+    }
+    .offer-right{
+        background-color: burlywood;
+        width: 35%;
+        padding: 2rem;
+        margin: 2rem;
+        display: flex;
+        border-radius: 10PX;
+    
+    }
+    .offer-right .left p{
+        font-size: 2rem;
+    }
+    
+    .offer-right .left h2{
+        font-size: 2.5rem;
+        margin-right: 3rem;
+    }
+    .offer-right .right img{
+        border-radius: 2rem;
+        margin-left: 3.5rem;
+    }
+    .page3{
+        display: flex;
+        background-color: burlywood;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 5rem;
+        padding: 50px;
+        border-radius: 4rem;
+        flex-direction: column;
+        margin: 3rem;
+    }
+    .page3 img{
+    border-radius: 2rem;
+    }
+    .page3 .right h2{
+        font-size: 2rem;
+        margin-left: 4rem; 
+    }
+    .page3 .right p{
+        font-size: 1rem;
+        margin-left: 4rem; 
+        padding-top: 15px;
+    }
+    .page3 .right ul{
+        margin-left: 5rem;
+        padding-top: 10px;
+    }
+    .page3 .right ul li{
+        list-style-type:square;
+    }
+    .page3 .right button{
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+    .page4 {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .products { display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .products h2 { 
+        margin-bottom: 20px; 
+    }
+    
+    .products p { max-width: 500px;
+         text-align: center; 
+         margin-bottom: 30px; 
+        }
+    
+    .iteams ul { display: flex; 
+        justify-content: space-around; 
+        list-style-type: none; 
+        }
+    
+    .iteams li { font-size: 24px; 
+        font-weight: bold; 
+        padding: 10px 20px;
+         border: 1px solid white; 
+         border-radius: 5px; 
+         cursor: pointer; 
+         }
+    .page5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .chair{
+        height: 200px;
+        width: 100px;
+        padding: 70px;  
+    }  
+    .img{
+        border-radius: 1rem;
+        height: 200px;
+    }
+    .page6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .page7{
+        background-color: burlywood;
+        width: 0%;
+        padding: 0%;
+        margin: 15rem;
+        display: flex;
+        border-radius: 20PX;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .page7 .left h2{
+        padding-right: 10rem;
+        padding-bottom: 1rem;
+    }
+    .left .button{
+        background-color: white;
+        margin-top: 2rem;
+    }
+    .page7 .right img{
+        border-radius: 2rem;
+    }
+    .page8{
+        background-color: burlywood;
+    }
+    .customer h2 { 
+        text-align: center; 
+    }
+    .customer p {
+    text-align: center; 
+    }
+    .marvel{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    }
+    .colum1{
+        float:left;
+        display: flex;
+        margin: 2rem;
+        padding:1rem;
+    }
+    .review{
+        float: right;
+        
+        
+    }
+    
+    
+    .page8 .customerReview{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        padding: 2rem;
+        grid-template-columns: none;
+      
+    }
+    
+    .page8 .customer{
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        
+    
+    }
+    
+    .userReview{
+        background-color: white;
+        margin: 1rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .page8 .customerReview .userReview img{
+        margin-right: 1rem;
+    }
+    .page9 h2{
+        margin: 2rem;
+    }
+    .blog {
+        display: grid;
+        grid-template-columns: none;
+        gap: 200px;
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+    .blog > div {
+        background-color:burlywood;
+        border-radius: 5px;
+    }
+    .blog img {
+        width: 200px;
+        height: 200px;
+        padding-left: 2rem;
+        border-radius: 5px;
+    }
+    
+    .blog p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .off30{
+        display: flex;
+        background-color: burlywood;
+        margin: 5rem;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        padding-left: 2rem;
+    }
+    .off30 img{
+        border-radius: 10px;
+    }
+    .map{
+        margin-left: 230px;
+    }
+    .map img {
+        height: 500px;
+        width: -webkit-fill-available;
+    }
+    .page11{
+        display: flex;
+        margin: 2rem;
+        padding: 20px;
+        column-gap: 200px;
+        font-size:20px;
+        margin-left: 100px;
+    }
+    .shopname{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .shopname h2{
+        padding-top: 12px;
+    }
+    .leftside.searh .input{
+        width: 50%;
+        
+    }
+    .leftside .searh .img{
+        height: 1rem;
+        margin-top:0.5rem;
+    }
+    .foreimg{
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        margin: 2px;
+        margin: auto;
+    }
+    .prices .right h3 {
+        
+        font-size: 29px ;
+        margin-bottom: 2rem;
+    }
+    .page13{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle img{
+        height: 400px;
+        width: 300px;
+        justify-content: center;
+        display: block;
+        margin: auto;
+    }
+    .price h4{
+        text-decoration-line: line-through; 
+    }
+    .page12 header .about ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+    .prices ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .material p{
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+    .package ul{
+        padding: 2rem;
+    }
+    .table{
+        font-size: 40px;
+        margin-left:0%;
+        margin-bottom: 200px;
+        margin-top: 0%;
+    }
+    .page13 {
+    flex-direction: column;
+    }
+    .page17 ul{
+        display: flex;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .eleven img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        margin: 1.5rem;
+    }
+    .eleven .ul .button{
+        background-color: burlywood;
+    }
+    .twelve{
+        padding: 4rem;
+    }
+    
+    
+    .container {
+      width: 100%;
+      background-color:white;
+    }
+    
+    .skills {
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+    }
+    
+    .five {width: 80%; background-color:burlywood;}
+    .four {width: 60%; background-color: burlywood;}
+    .three {width: 40%; background-color: burlywood;}
+    .two {width: 30%; background-color: burlywood;}
+    .ones {width: 20%; background-color: burlywood;}
+    .RATING{
+        display: flex;
+        flex-direction: column;
+    }
+    .page20 .customerview{
+        display: grid;
+        grid-template-columns: none; 
+        padding: 2rem;
+      
+      }
+      
+      .page20 .customer{
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+    
+      }
+      
+      .useReview{
+        background-color: white;
+        margin: 1rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+      }
+      .page20{
+        background: burlywood;
+        margin-left: 0rem;
+        margin-top: 25px;
+      }
+      .LEFTRATING {
+        margin-left: 20px;
+        }
+        
+  }
